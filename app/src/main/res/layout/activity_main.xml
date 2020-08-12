@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="cursive"
+        android:text="Florange"
+        android:textColor="?attr/textColor"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview1"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/first_text"
+        android:textColor="?attr/textColor"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/flower"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="18dp"
+        android:textColor="?attr/textColor" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview1"
+        android:layout_marginLeft="250dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/quantity"
+        android:textColor="?attr/textColor"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="275dp"
+        android:background="?attr/backgroundColor"
+        android:text="-"
+        android:textAllCaps="true"
+        android:textColor="?attr/textColor"
+        android:textSize="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text3"
+
+        android:layout_marginLeft="302dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="1"
+        android:textColor="?attr/textColor" />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="320dp"
+        android:background="?attr/backgroundColor"
+        android:text="+"
+        android:textAllCaps="true"
+        android:textColor="?attr/textColor"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/flower"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="?attr/textColor"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/add"
+        android:textColor="?attr/backgroundColor"
+        android:textSize="15sp"
+
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingTop="20dp"
+        android:text="@string/order1"
+        android:textColor="?attr/textColor"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:id="@+id/album_description_view"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="20dp"
+        android:hint="Benazir"
+        android:inputType="textMultiLine"
+        android:textColor="?attr/textColor"
+        android:textColorHint="?attr/textColor" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album_description_view"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingTop="20dp"
+        android:text="@string/order2"
+        android:textColor="?attr/textColor"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_marginLeft="20dp"
+        android:hint="+998"
+        android:inputType="textMultiLine"
+        android:textColor="?attr/textColor"
+        android:textColorHint="?attr/textColor" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/edittext"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:background="?attr/textColor"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/order"
+        android:textColor="?attr/backgroundColor"
+        android:textSize="15sp"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button2"
+        android:paddingLeft="20dp"
+        android:text="@string/contacts"
+
+        android:textColor="?attr/textColor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/text4"
+        android:paddingLeft="20dp"
+        android:text="Sharqona Street, 5/2"
+        android:textColor="?attr/textColor"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="-5dp"
+        android:background="?attr/textColor"
+        android:text="@string/orderb"
+        android:textColor="?attr/backgroundColor" />
+
+
+    <Switch
+        android:id="@+id/mySwitch"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Change theme"
+        android:textColor="?attr/textColor" />
+
+
+</RelativeLayout>

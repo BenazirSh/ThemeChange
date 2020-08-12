@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flowers">
+        <item>Роза</item>
+        <item>Тюльпан</item>
+        <item>Ромашка</item>
+        <item>Одуванчик</item>
+
+
+    </string-array>
+    <string name="app_name">Fleuriste</string>
+    <string name="quantity">Количество</string>
+    <string name="first_text">Выберите цветок</string>
+    <string name="add">Добавить</string>
+    <string name="order1">Пожалуйста, напишите имя</string>
+    <string name="order2">Пожалуйста, напишите номер телефона</string>
+    <string name="order">Заказать</string>
+    <string name="orderb">Выбрать язык</string>
+    <string name="contacts">Наши контакты</string>
+</resources>
